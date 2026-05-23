@@ -1,0 +1,25 @@
+flowchart LR
+  U[Usuario web / móvil] --> FE[Frontend Next.js + TypeScript]
+  FE --> API[FastAPI API]
+  API --> DB[(PostgreSQL)]
+  API --> MEDIA[Cloudinary / proveedor de media]
+  API --> AUTH[Auth + sesiones + Google OAuth]
+  API --> OBS[Logs / Sentry opcional]
+
+  subgraph Producto
+    CAL[Calendario]
+    LIVE[Workout live]
+    STUDIO[Studio]
+    SOCIAL[Comunidad]
+    CHAT[Chat]
+    COACH[Coach mode]
+    ADMIN[Admin]
+  end
+
+  FE --> CAL
+  FE --> LIVE
+  FE --> STUDIO
+  FE --> SOCIAL
+  FE --> CHAT
+  FE --> COACH
+  FE --> ADMIN

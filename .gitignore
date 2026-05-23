@@ -1,0 +1,13 @@
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.log
+
+# No subir capturas privadas sin revisar
+assets/screenshots/private/
+assets/screenshots/raw/

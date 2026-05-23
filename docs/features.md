@@ -123,3 +123,48 @@
 - Funnels básicos.
 - Snapshots de métricas.
 - Integración opcional con Sentry.
+
+---
+
+## Vista por secciones de producto
+
+### Landing pública
+
+Presenta el producto, permite acceder a login/registro y sirve como primera impresión para la demo.
+
+### Dashboard
+
+Actúa como centro operativo del usuario autenticado: acceso rápido a entrenamiento, calendario, perfil, comunidad y acciones clave.
+
+### Calendario
+
+Permite organizar entrenamientos por día, revisar sesiones y mantener una planificación semanal más clara.
+
+### Workout live
+
+Permite ejecutar un entrenamiento real registrando series, repeticiones, pesos, descansos y notas. Es el flujo principal de uso en gimnasio.
+
+### Studio
+
+Centraliza la creación de posts, rutinas y ejercicios. Usa flujos guiados para evitar formularios largos y mejorar la experiencia de creación.
+
+### Comunidad / Discover
+
+Permite descubrir contenido público, rutinas, ejercicios y perfiles de otros usuarios. Incluye interacciones sociales como likes, guardados y comentarios.
+
+### Perfil
+
+Agrupa identidad, contenido y actividad. Diferencia la experiencia privada del usuario de su presencia pública dentro de la comunidad.
+
+### Chat
+
+Permite conversaciones privadas y prepara la base para comunicación social y coach/alumno.
+
+### Coach mode
+
+Añade una capa profesional para entrenadores: roster, alumnos, asignaciones, check-ins y seguimiento.
+
+### Admin / analytics
+
+Permite operar el producto desde dentro: métricas, reportes, auditoría, moderación y señales de uso.
+

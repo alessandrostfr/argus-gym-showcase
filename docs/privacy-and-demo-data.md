@@ -74,3 +74,8 @@ La demo pública debe usar datos ficticios o datos sanitizados:
 - No aparecen errores con stack traces.
 - No aparecen paneles con credenciales.
 - La demo está separada del entorno privado o no contiene datos personales reales.
+
+
+## Capturas públicas
+
+Las capturas incluidas en este showcase deben mantenerse con datos ficticios o sanitizados. Antes de actualizar imágenes, revisar que no aparezcan emails reales, nombres personales sensibles, tokens, errores internos, paneles con información privada o datos que no deban ser públicos.
